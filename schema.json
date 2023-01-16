@@ -1,0 +1,92 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2023-01-16T20:47:16.895Z",
+  "__export_source": "insomnia.desktop.app:v2022.7.0",
+  "resources": [
+    {
+      "_id": "req_45e77ae1d7274874859d94b23877fd00",
+      "parentId": "wrk_7c5ce19456bd486c9c51f38cec041bc3",
+      "modified": 1673901947401,
+      "created": 1673901314818,
+      "url": "{{ _.base_url }}/api/associations",
+      "name": "List of associations",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [],
+      "authentication": {},
+      "metaSortKey": -1673901314818,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "wrk_7c5ce19456bd486c9c51f38cec041bc3",
+      "parentId": null,
+      "modified": 1673901309272,
+      "created": 1673901309272,
+      "name": "API",
+      "description": "",
+      "scope": "collection",
+      "_type": "workspace"
+    },
+    {
+      "_id": "env_fd52a438bd74487f167c73d01b50b9fd7009a1c9",
+      "parentId": "wrk_7c5ce19456bd486c9c51f38cec041bc3",
+      "modified": 1673901309282,
+      "created": 1673901309282,
+      "name": "Base Environment",
+      "data": {},
+      "dataPropertyOrder": null,
+      "color": null,
+      "isPrivate": false,
+      "metaSortKey": 1673901309282,
+      "_type": "environment"
+    },
+    {
+      "_id": "jar_fd52a438bd74487f167c73d01b50b9fd7009a1c9",
+      "parentId": "wrk_7c5ce19456bd486c9c51f38cec041bc3",
+      "modified": 1673901309284,
+      "created": 1673901309284,
+      "name": "Default Jar",
+      "cookies": [],
+      "_type": "cookie_jar"
+    },
+    {
+      "_id": "spc_9a6da9f33e3a4feabb031ba1d2ed196d",
+      "parentId": "wrk_7c5ce19456bd486c9c51f38cec041bc3",
+      "modified": 1673901309273,
+      "created": 1673901309273,
+      "fileName": "API",
+      "contents": "",
+      "contentType": "yaml",
+      "_type": "api_spec"
+    },
+    {
+      "_id": "env_bb84592bf9e5419a83d5b3df94089785",
+      "parentId": "env_fd52a438bd74487f167c73d01b50b9fd7009a1c9",
+      "modified": 1673901763550,
+      "created": 1673901337490,
+      "name": "compostage-dans-ma-ville",
+      "data": {
+        "base_url": "http://localhost:8080"
+      },
+      "dataPropertyOrder": {
+        "&": [
+          "base_url"
+        ]
+      },
+      "color": null,
+      "isPrivate": false,
+      "metaSortKey": 1673901337490,
+      "_type": "environment"
+    }
+  ]
+}
